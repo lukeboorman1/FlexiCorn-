@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('MyriadPro-Regular.otf')  format('opentype');
+}
+
+body {
+  background-color: #000000;
+  font-family: 'MyriadPro';
+  overflow: visible;
+  color: white;
+}
+
+header {
+  display: block;
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+font-family: Poppins-Bold;
+font-size: 64px;
+color: #FFFFFF;
+letter-spacing: 1.2px;
+}
+
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
+}
+
+.wrap {}
+
+p {
+  color: white;
+}
+
+table {
+  border-spacing: 15px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  margin-top: 100px;
+  color: white;
+  border-spacing: 4px;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid white;
+}
+
+img {
+  -webkit-animation: spin 40s linear infinite;
+  animation: spin 40s linear infinite;
+  border-radius: 500px;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#header {
+  -webkit-animation: none;
+          animation: none;
+          border-radius: 0;
+}
