@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @font-face {
   font-family: 'MyriadPro';
-  src: url('MyriadPro-Regular.otf')  format('opentype');
+  src: url('MyriadPro-Regular.otf') format('opentype');
 }
 
 body {
@@ -27,10 +27,10 @@ header {
 
 h3 {
   color: white;
-font-family: Poppins-Bold;
-font-size: 64px;
-color: #FFFFFF;
-letter-spacing: 1.2px;
+  font-family: Poppins-Bold;
+  font-size: 64px;
+  color: #FFFFFF;
+  letter-spacing: 1.2px;
 }
 
 section {
@@ -54,7 +54,7 @@ p {
 
 table {
   border-spacing: 15px;
-  width: 60vw;
+  width: 30vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,11 +75,22 @@ img {
   animation: spin 40s linear infinite;
   border-radius: 500px;
 }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 #header {
   -webkit-animation: none;
-          animation: none;
-          border-radius: 0;
+  animation: none;
+  border-radius: 0;
 }
