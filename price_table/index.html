@@ -1,185 +1,193 @@
 <html>
 
-<head>
-	<script src="jquery.js"></script>
-	<!-- <script src="drip.js"></script> -->
-	<script src="rotate.js"></script>
-	<meta charset="utf-8">
-	<title>FlexiCorn Price Range</title>
-	<link rel="stylesheet" type="text/css" href="s.css">
-</head>
+	<head>
+		<script src="jquery.js"></script>
+		<!-- <script src="drip.js"></script> -->
+		<script src="price_range.js"></script>
+		<meta charset="utf-8">
+		<title>FlexiCorn Price Range</title>
+		<link rel="stylesheet" type="text/css" href="s.css">
+	</head>
 
-<body>
-	<header>
-		<img id="header" src="flexicorn.svg" alt="">
-		<h3>FlexiCorn</h3>
-	</header>
+	<body>
+		<header>
+			<img id="header" src="flexicorn.svg" alt="">
+			<h3>FlexiCorn</h3>
+		</header>
 
-	<section class="a">
+		<section class="a">
 
-		<table id="01">
-			<caption>July 2017</caption>
+			<table id="01">
+				<caption>July 2017</caption>
 
-			<tr>
-				<th>Weight</th>
+				<tr>
+					<th>Weight</th>
 
-				<th>Price Range in €</th>
-			</tr>
-			<tr>
-				<td> 1 bushel (≃25,4kg)</td>
-				<td><div id="total"></div></td>
+					<th>Price Range in €</th>
+				</tr>
+				<tr>
+					<td> 1 bushel (≃25,4kg)</td>
+					<td>
+						<div id="july_bushel"></div>
+					</td>
 
-			</tr>
-			<tr>
-				<td>1kg</td>
-				<td></td>
+				</tr>
+				<tr>
+					<td>1kg</td>
+					<td>
+						<div id="july_kg"></div>
+					</td>
 
-			</tr>
-			<tr>
-				<td>1gr</td>
-				<td></td>
+				</tr>
+				<tr>
+					<td>1gr</td>
+					<td>
+						<div id="july_gr"></div>
+					</td>
 
-			</tr>
-			<tr>
-				<td>1mg</td>
-				<td></td>
+				</tr>
+				<tr>
+					<td>1mg</td>
+					<td>
+						<div id="july_mg"></div>
+					</td>
 
-			</tr>
+				</tr>
 
-		</table>
-	</section>
+			</table>
+		</section>
 
-	<section class="b ">
-		<table id="02 ">
-			<caption> September 2017</caption>
+		<section class="b ">
+			<table id="02 ">
+				<caption> September 2017</caption>
 
-			<tr>
-				<th>Weight</th>
+				<tr>
+					<th>Weight</th>
 
-				<th>Price Range in €</th>
-			</tr>
-			<tr>
-				<td> 1 bushel (≃25,4kg)</td>
-				<td></td>
+					<th>Price Range in €</th>
+				</tr>
+				<tr>
+					<td> 1 bushel (≃25,4kg)</td>
+					<td></td>
 
-			</tr>
-			<tr>
-				<td>1kg</td>
-				<td></td>
+				</tr>
+				<tr>
+					<td>1kg</td>
+					<td></td>
 
-			</tr>
-			</tr>
-			<tr>
-				<td>1gr</td>
-				<td></td>
+				</tr>
+				</tr>
+				<tr>
+					<td>1gr</td>
+					<td></td>
 
-			</tr>
-			<tr>
-				<td>1mg</td>
-				<td></td>
+				</tr>
+				<tr>
+					<td>1mg</td>
+					<td></td>
 
-			</tr>
+				</tr>
 
-		</table>
-		<section class="c">
-		<table id="03 ">
-			<caption> December 2017</caption>
+			</table>
+			<section class="c">
+				<table id="03 ">
+					<caption> December 2017</caption>
 
-			<tr>
-				<th>Weight</th>
+					<tr>
+						<th>Weight</th>
 
-				<th>Price Range in €</th>
-			</tr>
-			<tr>
-				<td> 1 bushel (≃25,4kg)</td>
-				<td></td>
+						<th>Price Range in €</th>
+					</tr>
+					<tr>
+						<td> 1 bushel (≃25,4kg)</td>
+						<td></td>
 
-			</tr>
-			<tr>
-				<td>1kg</td>
-				<td></td>
+					</tr>
+					<tr>
+						<td>1kg</td>
+						<td></td>
 
-			</tr>
-			</tr>
-			<tr>
-				<td>1gr</td>
-				<td></td>
+					</tr>
+					</tr>
+					<tr>
+						<td>1gr</td>
+						<td></td>
 
-			</tr>
-			<tr>
-				<td>1mg</td>
-				<td></td>
+					</tr>
+					<tr>
+						<td>1mg</td>
+						<td></td>
 
-			</tr>
+					</tr>
 
-		</table>
-		<section class="d">
-		<table id="04">
-			<caption> March 2018</caption>
+				</table>
+				<section class="d">
+					<table id="04">
+						<caption> March 2018</caption>
 
-			<tr>
-				<th>Weight</th>
+						<tr>
+							<th>Weight</th>
 
-				<th>Price Range in €</th>
-			</tr>
-			<tr>
-				<td> 1 bushel (≃25,4kg)</td>
-				<td></td>
+							<th>Price Range in €</th>
+						</tr>
+						<tr>
+							<td> 1 bushel (≃25,4kg)</td>
+							<td></td>
 
-			</tr>
-			<tr>
-				<td>1kg</td>
-				<td></td>
+						</tr>
+						<tr>
+							<td>1kg</td>
+							<td></td>
 
-			</tr>
-			</tr>
-			<tr>
-				<td>1gr</td>
-				<td></td>
+						</tr>
+						</tr>
+						<tr>
+							<td>1gr</td>
+							<td></td>
 
-			</tr>
-			<tr>
-				<td>1mg</td>
-				<td></td>
+						</tr>
+						<tr>
+							<td>1mg</td>
+							<td></td>
 
-			</tr>
+						</tr>
 
-		</table>
-<section class="e ">
-		<table id="05">
-			<caption> May 2018</caption>
+					</table>
+					<section class="e ">
+						<table id="05">
+							<caption> May 2018</caption>
 
-			<tr>
-				<th>Weight</th>
+							<tr>
+								<th>Weight</th>
 
-				<th>Price Range in €</th>
-			</tr>
-			<tr>
-				<td> 1 bushel (≃25,4kg)</td>
-				<td></td>
+								<th>Price Range in €</th>
+							</tr>
+							<tr>
+								<td> 1 bushel (≃25,4kg)</td>
+								<td></td>
 
-			</tr>
-			<tr>
-				<td>1kg</td>
-				<td></td>
+							</tr>
+							<tr>
+								<td>1kg</td>
+								<td></td>
 
-			</tr>
-			</tr>
-			<tr>
-				<td>1gr</td>
-				<td></td>
+							</tr>
+							</tr>
+							<tr>
+								<td>1gr</td>
+								<td></td>
 
-			</tr>
-			<tr>
-				<td>1mg</td>
-				<td></td>
+							</tr>
+							<tr>
+								<td>1mg</td>
+								<td></td>
 
-			</tr>
+							</tr>
 
-		</table>
-	</section>
+						</table>
+					</section>
 
-</body>
+	</body>
 
 
 
