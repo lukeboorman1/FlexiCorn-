@@ -158,7 +158,7 @@ $(document).ready(function() {
 
 		frisia_malto = randomFloatBetween(frisia_malto_min, frisia_malto_max, 8);
     frisia_malto_price = frisia_malto.toFixed(2);
-    $("#frisia_malto_price").html(frisia_malto_price) + "€";
+    $("#frisia_malto_price").html(frisia_malto_price + "€");
 
     coffee_malto = randomFloatBetween(coffee_malto_min, coffee_malto_max, 8);
     coffee_malto_price = coffee_malto.toFixed(2);

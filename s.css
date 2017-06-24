@@ -43,7 +43,7 @@ section {
 }
 
 .b {
-  width: 50px;
+  width: 50%;
   display: inline-block;
 }
 
@@ -53,7 +53,7 @@ section {
 }
 
 .d {
-  width: 50px;
+  width: 50%;
   display: inline-block;
 }
 
@@ -63,13 +63,13 @@ section {
 }
 
 .f {
-  width: 50px;
+  width: 50%;
   display: inline-block;
 }
 
 .g {
-  width: 50px;
-  display: block;
+  width: 50%;
+  display: inline-block;
 }
 
 caption {
@@ -87,7 +87,7 @@ p {
 
 table {
   border-spacing: 15px;
-  width: 60vw;
+  width: 40vw;
   margin-left: auto;
   margin-right: auto;
 }
