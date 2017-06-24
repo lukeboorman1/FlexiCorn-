@@ -85,7 +85,7 @@ $(document).ready(function() {
     frisian_cornflour = randomFloatBetween(frisian_cornflour_min, frisian_cornflour_max, 4);
     frisian_price = frisian_cornflour.toFixed(2);
     $("#frisian_cornflour_price").html(frisian_price + "€");
-    console.log(frisian_cornflour);
+    
 
     vla_cornflour = randomFloatBetween(vla_cornflour_min, vla_cornflour_max, 8);
     vla_price = vla_cornflour.toFixed(2);
