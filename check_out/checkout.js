@@ -6,20 +6,23 @@ $(document).ready(function() {
 	var price;
 	var quantity;
 
-	setInterval(function() {
+	$('#finalise').click(function() {
+		calc_price();
+	});
 
-		console.log(calc(0));
-
+	function calc_price() {
 		var num_products = $('td div');
-		// var total_price;
+		var total_price = 0;
 
 		for (var i = 0; i < num_products.length; i++) {
 			num_products[i]
 
-			total_price += calc(num_products[i]);
-			console.log(total_price);
-		}
-	}, 500);
+			total_price += calc(i);
+			if (i === (num_products.length - 1)) {
+				console.log(total_price);
+			};
+		};
+	};
 
 	function calc(product) {
 		// find the price
