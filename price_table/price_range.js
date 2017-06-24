@@ -1,15 +1,43 @@
 $(document).ready(function() {
-	july_min = 11.79705512;
-	july_max = 12.0318189;
+	july17_min = 11.79705512;
+	july17_max = 12.0318189;
+
+	september17_min=11.79705512;
+	september17_max=12.0318189;
+
+	december17_min=12.36048819;
+	december17_max=12.58719291;
+
+	march18_min=12.65762205;
+	march18_max=12.86890945;
+
 
 	var total = setInterval(function() {
-		july = randomFloatBetween(july_min, july_max, 8);
-		$("#july_bushel").html(july);
-		$("#july_kg").html(july / 1000);
-		$("#july_gr").html(july / 1000000);
-		$("#july_mg").html(july / 1000000000);
+		july17 = randomFloatBetween(july17_min, july17_max, 8);
+		$("#july17_bushel").html(july17);
+		$("#july17_kg").html(july17 / 1000);
+		$("#july17_gr").html(july17 / 1000000);
+		$("#july17_mg").html(july17 / 1000000000);
 
-	}, 100);
+		september17 = randomFloatBetween(september17_min, september17_max, 8);
+		$("#september17_bushel").html(september17);
+		$("#september17_kg").html(september17 / 1000);
+		$("#september17_gr").html(september17 / 1000000);
+		$("#september17_mg").html(september17 / 1000000000);
+
+		december17 = randomFloatBetween(december17_min, december17_max, 8);
+		$("#december17_bushel").html(december17);
+		$("#december17_kg").html(december17 / 1000);
+		$("#december17_gr").html(december17 / 1000000);
+		$("#december17_mg").html(december17 / 1000000000);
+
+		march18 = randomFloatBetween(march18_min, march18_max, 8);
+		$("#march18_bushel").html(march18);
+		$("#march18_kg").html(march18 / 1000);
+		$("#march18_gr").html(march18 / 1000000);
+		$("#march18_mg").html(march18 / 1000000000);
+
+	}, 1000);
 
 	function randomFloatBetween(minValue, maxValue, precision) {
 		if (typeof(precision) == 'undefined') {

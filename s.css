@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
 @font-face {
-  font-family: 'MyriadPro';
-  src: url('MyriadPro-Regular.otf')  format('opentype');
+  font-family: 'Poppins';
+  src: url('Poppins/Poppins-Regular.ttf') format('truetype');
 }
 
 body {
   background-color: #000000;
-  font-family: 'MyriadPro';
+  font-family: 'Poppins';
   overflow: visible;
   color: white;
 }
@@ -16,10 +15,8 @@ header {
   color: white;
   font-size: 60px;
   text-align: left;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 90px;
+  margin-right: 1100px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -27,16 +24,52 @@ header {
 
 h3 {
   color: white;
-font-family: Poppins-Bold;
-font-size: 64px;
-color: #FFFFFF;
-letter-spacing: 1.2px;
+  font-family: 'Poppins-Bold';
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 1.2px;
 }
 
 section {
-  display: block;
+  display: inline;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+}
+
+.a {
+  width: 50%;
+  display: inline-block;
+}
+
+.b {
+  width: 50px;
+  display: inline-block;
+}
+
+.c {
+  width: 50%;
+  display: inline-block;
+}
+
+.d {
+  width: 50px;
+  display: inline-block;
+}
+
+.e {
+  width: 50%;
+  display: inline-block;
+}
+
+.f {
+  width: 50px;
+  display: inline-block;
+}
+
+.g {
+  width: 50px;
+  display: block;
 }
 
 caption {
@@ -62,7 +95,6 @@ table {
 table, th, td {
   margin-top: 100px;
   color: white;
-  border-spacing: 4px;
   text-align: center;
 }
 
@@ -75,11 +107,30 @@ img {
   animation: spin 40s linear infinite;
   border-radius: 500px;
 }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 #header {
   -webkit-animation: none;
-          animation: none;
-          border-radius: 0;
+  animation: none;
+  border-radius: 0;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+div {
+  display: inline;
+  color: white;
 }
