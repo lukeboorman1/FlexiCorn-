@@ -1,16 +1,13 @@
 $(document).ready(function() {
 
-	// var x = document.getElementById("myNumber").value;
-	// document.getElementById("demo").innerHTML = x;
-
 	var price;
 	var quantity;
 
 	$('#finalise').click(function() {
-		calc_price();
+		calc_total_price();
 	});
 
-	function calc_price() {
+	function calc_total_price() {
 		var num_products = $('td div');
 		var total_price = 0;
 
