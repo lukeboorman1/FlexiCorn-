@@ -1,45 +1,63 @@
 <html>
-<head>
-  <script src="jquery.js"></script>
-  <script src="price.js"></script>
-  <meta charset="utf-8">
-  <title>FlexiCorn by Luke</title>
-  <link rel="stylesheet" type="text/css" href="s.css">
-</head>
 
-<body>
-  <table id="04">
-    <caption>Maltodrextin</caption>
-    <tr>
-      <th>Product Name</th>
-      <th>Picture</th>
-      <th>Price</th>
-      <th>Quantity</th>
-    </tr>
-    <tr>
-      <td>Frisia Marshmellows</td>
-      <td><img src="../img/icon/frisia_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="frisia_malto_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-    <tr>
-      <td>Coffee</td>
-      <td><img src="../img/icon/beans_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="coffee_malto_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-    <tr>
-      <td>Dorritos</td>
-      <td><img src="../img/icon/dorritos_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="dorritos_malto_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-  </table>
-</body>
+  <head>
+    <script src="jquery.js"></script>
+    <script src="price.js"></script>
+    <script src="checkout.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>FlexiCorn by Luke</title>
+    <link rel="stylesheet" type="text/css" href="s.css">
+  </head>
+
+  <body>
+    <table id="04">
+      <caption>Maltodrextin</caption>
+      <tr>
+        <th>Product Name</th>
+        <th>Picture</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>Frisia Marshmellows</td>
+        <td><img src="../img/icon/frisia_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="frisia_malto_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10">
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Coffee</td>
+        <td><img src="../img/icon/beans_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="coffee_malto_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10">
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Dorritos</td>
+        <td><img src="../img/icon/dorritos_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="dorritos_malto_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10">
+          </form>
+        </td>
+      </tr>
+    </table>
+    <form>
+      <button onclick="function()">FINALISE</button>
+    </form>
+  </body>
+
 </html>
