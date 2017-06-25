@@ -1,30 +1,41 @@
 <html>
-<head>
-  <script src="jquery.js"></script>
-  <script src="price.js"></script>
-  <meta charset="utf-8">
-  <title>FlexiCorn by Luke</title>
-  <link rel="stylesheet" type="text/css" href="s.css">
-</head>
 
-<body>
-  <table id="04">
-    <caption>Vegetable Plastic</caption>
+  <head>
+    <script src="jquery.js"></script>
+    <script src="price.js"></script>
+    <script src="checkout.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>FlexiCorn by Luke</title>
+    <link rel="stylesheet" type="text/css" href="s.css">
+    <link rel="stylesheet" type="text/css" href="../s.css">
+  </head>
 
-    <tr>
-      <th>Product Name</th>
-      <th>Picture</th>
-      <th>Price</th>
-      <th>Quantity</th>
-    </tr>
-    <tr>
-      <td>Spa</td>
-      <td><img src="../img/icon/spa_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="spa_veg_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-  </table>
-</body>
+  <body>
+    <table id="04">
+      <caption>Vegetable Plastic</caption>
+
+      <tr>
+        <th>Product Name</th>
+        <th>Picture</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>Spa</td>
+        <td><img src="../img/icon/spa_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="spa_veg_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+    </table>
+    <div class="container">
+      <span id="finalise" class="btn">Checkout</span>
+    </div>
+  </body>
+
 </html>

@@ -1,72 +1,102 @@
 <html>
-<head>
-  <script src="jquery.js"></script>
-  <script src="price.js"></script>
-  <meta charset="utf-8">
-  <title>FlexiCorn by Luke</title>
-  <link rel="stylesheet" type="text/css" href="s.css">
-</head>
 
-<body>
-  <table id="tow">
-    <caption> High Fructose Corn Syrop</caption>
+  <head>
+    <script src="jquery.js"></script>
+    <script src="price.js"></script>
+    <script src="checkout.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>FlexiCorn by Luke</title>
+    <link rel="stylesheet" type="text/css" href="s.css">
+    <link rel="stylesheet" type="text/css" href="../s.css">
+  </head>
 
-    <tr>
-      <th>Product Name</th>
-      <th>Picture</th>
-      <th>Price</th>
-      <th>Quantity</th>
-    </tr>
-    <tr>
-      <td>Club Mate</td>
-      <td><img src="../img/icon/clubmate_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="clubmate_hfcs_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-    </tr>
-    <tr>
-      <td>Coca cola</td>
-      <td><img src="../img/icon/coca-cola_icon.jpg " style="width:150px;height:150px;"></td>
-      <td><div id="cola_hfcs_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-    <tr>
-      <td>Corona</td>
-      <td><img src="../img/icon/corona_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="corona_hfcs_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-    <tr>
-      <td>Croissants</td>
-      <td><img src="../img/icon/croissant_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="croissants_hfcs_price"></div></td>
-      <td><form>
-  <input type="number" name="quantity" min="1" max="10">
-</form></td>
-    </tr>
-    <tr>
-      <td>Skittles</td>
-      <td><img src="../img/icon/skittles_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="skittles_hfcs_price"></td>
-        <td><form>
-    <input type="number" name="quantity" min="1" max="10">
-  </form></td>
-    </tr>
-    <tr>
-      <td>Wicky Orange Juice</td>
-      <td><img src="../img/icon/wicky_icon.jpg " style="width:150px;height:150px; "></td>
-      <td><div id="wicky_hfcs_price"></td>
-        <td><form>
-    <input type="number" name="quantity" min="1" max="10">
-  </form></td>
-    </tr>
+  <body>
+    <table id="tow">
+      <caption> High Fructose Corn Syrop</caption>
 
-  </table>
-</body>
-</hmtl>
+      <tr>
+        <th>Product Name</th>
+        <th>Picture</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>Club Mate</td>
+        <td><img src="../img/icon/clubmate_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="clubmate_hfcs_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Coca cola</td>
+        <td><img src="../img/icon/coca-cola_icon.jpg " style="width:150px;height:150px;"></td>
+        <td>
+          <div id="cola_hfcs_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Corona</td>
+        <td><img src="../img/icon/corona_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="corona_hfcs_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Croissants</td>
+        <td><img src="../img/icon/croissant_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="croissants_hfcs_price"></div>
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Skittles</td>
+        <td><img src="../img/icon/skittles_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="skittles_hfcs_price">
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Wicky Orange Juice</td>
+        <td><img src="../img/icon/wicky_icon.jpg " style="width:150px;height:150px; "></td>
+        <td>
+          <div id="wicky_hfcs_price">
+        </td>
+        <td>
+          <form>
+            <input type="number" name="quantity" min="1" max="10" value="0"><span class="plus counter">+</span><span class="min counter">-</span>
+          </form>
+        </td>
+      </tr>
+
+    </table>
+    <div class="container">
+      <span id="finalise" class="btn">Checkout</span>
+    </div>
+  </body>
+  </hmtl>
