@@ -41,6 +41,19 @@ $(document).ready(function() {
 		$("#march18_gr").html(march18 / 1000);
 		$("#march18_mg").html(march18 / 100000);
 
+		cornsyropraw = randomFloatBetween(july17_min, july17_max, 2);
+		cornsyrop = cornsyropraw + 2.23
+		cornsyrop_price = cornsyrop.toFixed(2);
+		$("#syrop_cost").html(cornsyrop);
+
+		cornsyroprawkg = randomFloatBetween(july17_min, july17_max, 2);
+		cornsyropkg = (cornsyroprawkg + 2.23)/15.1
+		cornsyropkg_price = cornsyropkg.toFixed(2);
+		$("syrop_1kg").html(cornsyropkg);
+
+
+
+
 	}, 1000);
 
 	function randomFloatBetween(minValue, maxValue, precision) {
