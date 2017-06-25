@@ -100,9 +100,6 @@ table {
   text-decoration: none;
 }
 
-.checkout_price {
-  font-size: 48px;
-}
 
 input {
   height: 50px;
@@ -188,4 +185,17 @@ input {
   animation: none;
   padding: 20px;
   max-height: 120px;
+}
+
+
+.checkout_descr {
+  display: block;
+  text-align: center;
+}
+
+
+.checkout_price {
+  display: block;
+  text-align: center;
+  font-size: 120px;
 }
