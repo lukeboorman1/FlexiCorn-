@@ -8,18 +8,27 @@ body {
   font-family: 'Poppins';
   overflow: visible;
   color: white;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
 }
 
 header {
   display: block;
   color: white;
   font-size: 60px;
-  text-align: left;
-  margin-top: 90px;
-  margin-right: 1100px;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
+  padding-top: 40px;
 }
 
 h3 {
@@ -28,48 +37,15 @@ h3 {
   font-size: 40px;
   color: #FFFFFF;
   letter-spacing: 1.2px;
+  margin-top: 10px;
 }
 
 section {
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-
-.a {
-  width: 50%;
-  display: inline-block;
-}
-
-.b {
-  width: 50%;
-  display: inline-block;
-}
-
-.c {
-  width: 50%;
-  display: inline-block;
-}
-
-.d {
-  width: 50%;
-  display: inline-block;
-}
-
-.e {
-  width: 50%;
-  display: inline-block;
-}
-
-.f {
-  width: 50%;
-  display: inline-block;
-}
-
-.g {
-  width: 50%;
-  display: inline-block;
+  width: 49%;
+  float: left;
 }
 
 caption {
@@ -78,8 +54,6 @@ caption {
   text-align: left;
   padding: 15px;
 }
-
-.wrap {}
 
 p {
   color: white;
@@ -90,6 +64,10 @@ table {
   width: 40vw;
   margin-left: auto;
   margin-right: auto;
+      font-family: 'Poppins';
+      text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 }
 
 table, th, td {
@@ -100,6 +78,20 @@ table, th, td {
 
 th, td {
   border: 1px solid white;
+}
+
+td {
+  min-width: 100px;
+}
+
+td:first-child {
+  min-width: 200px;
+  height: 50px;
+}
+
+td:last-child {
+  min-width: 200px;
+  height: 50px;
 }
 
 img {
@@ -125,9 +117,6 @@ img {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
-  position: absolute;
-  left: 30px;
-  top: 30px;
 }
 
 div {
