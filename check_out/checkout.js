@@ -13,10 +13,14 @@ $(document).ready(function() {
 
 		for (var i = 0; i < num_products.length; i++) {
 			num_products[i]
-
 			total_price += calc(i);
 			if (i === (num_products.length - 1)) {
+
+				total_price = "€ " + parseFloat(Math.round(total_price * 100) / 100).toFixed(2);
 				console.log(total_price);
+				$("body").children().remove();
+				$("body").append("<span class='checkout_price'>" + total_price + "</span>");
+
 			};
 		};
 	};
@@ -38,4 +42,47 @@ $(document).ready(function() {
 		return parseFloat(total.toFixed(2));
 	};
 
+	// plus minus --------------------------------------------------
+
+	$('.counter').click(function() {
+		counter(this);
+	})
+
+	function counter(element) {
+		var input_element;
+		input_element = $(element).siblings()[0]
+
+		if (element.classList[0] == "plus") {
+			var value = parseInt(input_element.value, 10);
+			value = isNaN(value)
+				? 0
+				: value;
+			value++;
+
+			if (value <= 10 && value >= 0) {
+				input_element.value = value;
+			}
+		}
+		if (element.classList[0] == "min") {
+
+			var value = parseInt(input_element.value, 10);
+			value = isNaN(value)
+				? 0
+				: value;
+			value--;
+			if (value <= 10 && value >= 0) {
+				input_element.value = value;
+			}
+		}
+	}
+
 });
+
+function incrementValue() {
+	var value = parseInt(input_element.value, 10);
+	value = isNaN(value)
+		? 0
+		: value;
+	value++;
+	input_element.value = value;
+}
