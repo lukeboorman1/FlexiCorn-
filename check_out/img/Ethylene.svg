@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="71px" viewBox="0 0 78 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Ethylene</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ethylene" transform="translate(-455.000000, -155.000000)">
+            <g transform="translate(454.000000, 150.299335)">
+                <g id="bonds" transform="translate(12.461538, 23.750000)" stroke="#FFFFFF" stroke-width="1.25" fill="#000000" fill-rule="nonzero">
+                    <path d="M7.42415718,28.75 L3.10640982,36.25" id="line8"></path>
+                    <path d="M50.4721405,28.75 L54.7899066,36.25" id="line12"></path>
+                    <path d="M52.6310236,7.5 L56.9487709,0" id="line16"></path>
+                    <path d="M5.26529285,7.5 L0.947526785,0" id="line20"></path>
+                    <path d="M21.2481443,19.9837687 L34.8501142,19.9837687" id="line24"></path>
+                    <path d="M21.2552935,13.39077 L34.8495247,13.39077" id="line26"></path>
+                </g>
+                <g id="text" font-size="18.75" font-family="Helvetica" fill="#FFFFFF" font-weight="normal">
+                    <text id="text28">
+                        <tspan x="16.5738499" y="46.75">C</tspan>
+                    </text>
+                    <text id="text30">
+                        <tspan x="48.9738499" y="46.75">C</tspan>
+                    </text>
+                    <text id="text32">
+                        <tspan x="66.4200037" y="75.387505">H</tspan>
+                    </text>
+                    <text id="text34">
+                        <tspan x="0.373849892" y="18.112495">H</tspan>
+                    </text>
+                    <text id="text36">
+                        <tspan x="66.4200037" y="18.112495">H</tspan>
+                    </text>
+                    <text id="text38">
+                        <tspan x="0.373849892" y="75.387505">H</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
