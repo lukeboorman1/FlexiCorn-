@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'Poppins';
-   src: url('Poppins/Poppins-Regular.ttf') format('truetype');
+   src: url('../Poppins/Poppins-Regular.ttf') format('truetype');
 }
 
 @-webkit-keyframes ticker {
@@ -41,23 +41,38 @@
    display: inline-block;
    height: 4rem;
    line-height: 4rem;
-   white-space: nowrap; // display items in a line
-   padding-right: 100%; // ensure items go before animations repeat (taken from parent due to inline-block)
+   white-space: nowrap;
+   padding-right: 100%;
    -webkit-animation-iteration-count: infinite;
-   animation-iteration-count: infinite;
+   -webkit-animation-iteration-count: infinite;
+           animation-iteration-count: infinite;
    -webkit-animation-timing-function: linear;
    animation-timing-function: linear;
    -webkit-animation-name: ticker;
    animation-name: ticker;
-   -webkit-animation-duration: 30s;
-   animation-duration: 30s;
-   &__item {
-      display: inline-block;
-      padding: 0 2rem;
-      font-size: 2rem;
-      color: white;
-   }
+   -webkit-animation-duration: 90s;
+   animation-duration: 90s;
+
 }
+
+.ticker__item {
+   display: inline-block;
+   padding: 0 2rem;
+   font-size: 1.8rem;
+   color: white;
+   border-bottom: 1px solid white;
+   font-style: italic;
+}
+
+.ticker__item div {
+  width: 500px;
+  border-right: 1px solid white;
+}
+
+.ticker__item div::before {
+  content: '€ ';
+}
+
 
 body {
    background-color: #000000;
@@ -106,4 +121,10 @@ p {
 
 div {
    color: white;
+}
+
+.price_explanation {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
 }
