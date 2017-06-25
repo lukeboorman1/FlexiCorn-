@@ -1,0 +1,109 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url('Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@-webkit-keyframes ticker {
+   0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+   }
+   100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+   }
+}
+
+@keyframes ticker {
+   0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+   }
+   100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+   }
+}
+
+.ticker-wrap {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   overflow: hidden;
+   height: 4rem;
+   background-color: rgba(#000, 0.9);
+   padding-left: 100%; // offset items to begin
+}
+
+.ticker {
+   display: inline-block;
+   height: 4rem;
+   line-height: 4rem;
+   white-space: nowrap; // display items in a line
+   padding-right: 100%; // ensure items go before animations repeat (taken from parent due to inline-block)
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+   animation-name: ticker;
+   -webkit-animation-duration: 30s;
+   animation-duration: 30s;
+   &__item {
+      display: inline-block;
+      padding: 0 2rem;
+      font-size: 2rem;
+      color: white;
+   }
+}
+
+body {
+   background-color: #000000;
+   font-family: 'Poppins';
+   overflow: visible;
+   color: white;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+header img {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   position: relative;
+}
+
+header {
+   display: block;
+   color: white;
+   font-size: 60px;
+   width: 100%;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 40px;
+}
+
+h3 {
+   color: white;
+   font-family: 'Poppins-Bold';
+   font-size: 40px;
+   color: #FFFFFF;
+   letter-spacing: 1.2px;
+   margin-top: 10px;
+}
+
+p {
+   color: white;
+}
+
+.center {
+   text-align: center;
+}
+
+div {
+   color: white;
+}
