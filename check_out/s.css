@@ -156,12 +156,8 @@ input {
           transition-duration: .2s;
 }
 
-.plus {
-
-}
-
-.min {
-
+.margin_bottom {
+  margin-bottom: 200px
 }
 
 
