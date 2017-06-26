@@ -1,12 +1,21 @@
-$(document).ready(function() {
-
-$(window).scroll(function() {
-    if ( $(window).scrollTop() >= 18830 ) {
-        $(window).scrollTop(201);
-    }
-    else if ( $(window).scrollTop() == 0 ) {
-        $(window).scrollTop(18629);
-    }
+$('document').ready(function() {
+	$("html, body").animate({
+		scrollTop: $(document).height()
+	}, 40000, "linear");
+	setTimeout(function() {
+		$('html, body').animate({
+			scrollTop: 0
+		}, 40000, "linear");
+	}, 40000);
+	var scrolltopbottom = setInterval(function() {
+		// 40000 - it will take 4 secound in total from the top of the page to the bottom
+		$("html, body").animate({
+			scrollTop: $(document).height()
+		}, 40000, "linear");
+		setTimeout(function() {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 40000, "linear");
+		}, 40000);
+	}, 8000);
 });
-
-}
