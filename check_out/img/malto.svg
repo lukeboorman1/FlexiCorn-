@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="95px" viewBox="0 0 129 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>maltodrexin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Maltodrext" transform="translate(-405.000000, -133.000000)">
+            <g id="maltodrexin" transform="translate(405.000000, 130.000000)">
+                <text id="O" fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12.05" font-weight="normal">
+                    <tspan x="64.54" y="36.535">O</tspan>
+                </text>
+                <text id="OH" fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12.05" font-weight="normal">
+                    <tspan x="36.47" y="47.605">OH</tspan>
+                </text>
+                <text id="O" fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12.05" font-weight="normal">
+                    <tspan x="20.11" y="78.055">O</tspan>
+                </text>
+                <text id="OH" fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12.05" font-weight="normal">
+                    <tspan x="68.205" y="96.345">OH</tspan>
+                </text>
+                <text id="OH" fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12.05" font-weight="normal">
+                    <tspan x="111.675" y="70.395">OH</tspan>
+                </text>
+                <text id="CH₂OH" fill="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12.05" font-weight="normal">
+                    <tspan x="36.47" y="11.33">CH₂OH</tspan>
+                </text>
+                <g id="shapes" transform="translate(0.000000, 14.500000)" stroke="#FFFFFF">
+                    <path d="M108.065,52.735 L105.065,52.735" id="Shape"></path>
+                    <path d="M101.035,52.735 L94.99,52.735" id="Shape" stroke-dasharray="4.03000020980835"></path>
+                    <path d="M92.97,52.735 L89.97,52.735" id="Shape"></path>
+                    <path d="M18.095,61.245 L15.095,61.245" id="Shape"></path>
+                    <path d="M11.06,61.245 L5.015,61.245" id="Shape" stroke-dasharray="4.03000020980835"></path>
+                    <path d="M3,61.245 L0,61.245" id="Shape"></path>
+                    <path d="M72.7,53.495 L40.485,53.495" id="Shape"></path>
+                    <path d="M40.605,53.545 L23.325,34.515" id="Shape"></path>
+                    <path d="M23.32,34.765 L40.36,18.03" id="Shape"></path>
+                    <path d="M40.56,35.405 L40.56,53.5" id="Shape"></path>
+                    <path d="M90.045,34.765 L74.935,19.66" id="Shape"></path>
+                    <path d="M40.335,0.135 L40.335,18.23" id="Shape"></path>
+                    <path d="M23.39,34.64 L23.39,52.735" id="Shape"></path>
+                    <path d="M72.625,53.27 L72.625,71.365" id="Shape"></path>
+                    <path d="M89.97,34.68 L89.97,52.77" id="Shape"></path>
+                    <path d="M90.02,34.715 L72.48,53.495" id="Shape"></path>
+                    <path d="M61.915,18.08 L40.21,18.08" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

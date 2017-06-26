@@ -204,6 +204,8 @@ input {
   animation: none;
   padding: 20px;
   max-height: 120px;
+  max-width: 240px;
+
 }
 
 
