@@ -3,6 +3,10 @@
   src: url('Poppins/Poppins-Regular.ttf') format('truetype');
 }
 
+* {
+  font-family: 'Poppins';
+}
+
 body {
   background-color: #000000;
   font-family: 'Poppins';
