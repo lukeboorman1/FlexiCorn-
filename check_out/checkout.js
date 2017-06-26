@@ -33,7 +33,7 @@ $(document).ready(function() {
 				total_price = "€ " + parseFloat(Math.round(total_price * 100) / 100).toFixed(2);
 				console.log(total_price);
 				$("body").children().remove();
-				$("body").append('<header><img id="header" src="../img/flexicorn.svg" alt=""><h3>FlexiCorn</h3></header><span class="checkout_price">' + total_price + "</span><span class=' checkout_descr '>Please refer to the cashier to finalise checkout</span><span class='checkout_descr'>Thank you for shopping at FlexiCorn</span>" + '<div class="outer"><div class="inner"><div class="center" id="padding-top"><a href="../check_out" class="btn_center">Get Started</a></div></div></div>');
+				$("body").append('<header><img id="header" src="../img/flexicorn.svg" alt=""><h3>FlexiCorn</h3></header><span class="checkout_price">' + total_price + "</span><span class=' checkout_descr '>Please refer to the cashier to finalise checkout</span><span class='checkout_descr'>Thank you for shopping at FlexiCorn</span>" + '<div class="outer"><div class="inner"><div class="center" id="padding-top"><a href="../check_out" class="btn_center">Finish Checkout</a></div></div></div>');
 
 			};
 		};
